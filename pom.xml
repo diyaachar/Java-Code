@@ -15,9 +15,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <url>http://maven.apache.org</url>  
 
  <distributionManagement>
+ <repository>
+    <id>rnexus-releases</id>
+    <url>http://localhost:8081/nexus/content/repositories/Test<</url>
+  </repository>
     <snapshotRepository>
        <id>nexus-snapshots</id>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
       <url>http://localhost:8081/nexus/content/repositories/Test-Snap</url>
     </snapshotRepository>
  </distributionManagement>
